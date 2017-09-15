@@ -3,3 +3,5 @@ export/*
 public/*
 source/styleguide/*
 vendor/*
+.idea/*
+node_modules/
