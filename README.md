@@ -1,8 +1,10 @@
-# Pattern Lab for Twig demo
+# Pattern Lab UI library demo
 
 This is a POC for using Pattern Lab to build a ui library with Twig engine.
 
 Based on [Pattern Lab Standard Edition for Twig](https://github.com/pattern-lab/edition-php-twig-standard#use-composer-to-create-a-project)
+
+For Drupal 8 integration, can be done by including this into a base theme which I will create another repo for POC.
 
 # Prerequisites
 - Node
@@ -22,3 +24,6 @@ It should start a server on http://localhost:8080/.
 
 # Watching changes
 Run `npm run watch`, it will watch scss and twig file changes and do the compile and generate work.
+
+# Todo
+- Add react js component in it
