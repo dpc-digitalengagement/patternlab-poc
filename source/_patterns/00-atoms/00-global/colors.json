@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "name": "$color-primary",
+      "value": "#004ea8",
+      "comment": "Primary Color."
+    },
+    {
+      "name": "$color-secondary",
+      "value": "#221660",
+      "comment": ""
+    },
+    {
+      "name": "$color-third",
+      "value": "#584E80",
+      "comment": ""
+    },
+    {
+      "name": "$color-fourth",
+      "value": "#BF0323",
+      "comment": ""
+    },
+    {
+      "name": "$color-white",
+      "value": "#FFFFFF",
+      "comment": ""
+    },
+    {
+      "name": "$color-black",
+      "value": "#000000",
+      "comment": ""
+    }
+  ],
+  "meta": {
+    "description": "To add to these items, use Sass variables that start with <code>$color-</code> in <code>source/_patterns/00-atoms/global/_color-vars.scss</code>"
+  }
+}

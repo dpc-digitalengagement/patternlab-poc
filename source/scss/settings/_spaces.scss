@@ -1,0 +1,13 @@
+$base-line-height: 24px !default;
+
+$base-spacing-unit:           24px !default;
+$quarter-spacing-unit:        $base-spacing-unit / 4 !default;
+$one-third-spacing-unit:      $base-spacing-unit / 3 !default;
+$half-spacing-unit:           $base-spacing-unit / 2 !default;
+$three-quarter-spacing-unit:  $base-spacing-unit * .75 !default;
+$two-thirds-spacing-unit:     $base-spacing-unit / 1.5 !default;
+$one-n-half-spacing-unit:     $base-spacing-unit * 1.5 !default;
+$double-spacing-unit:         $base-spacing-unit * 2 !default;
+$double-half-spacing-unit:    $base-spacing-unit * 2.5 !default;
+$triple-spacing-unit:         $base-spacing-unit * 3 !default;
+$line-height-ratio:           $base-line-height / $base-font-size !default; /* 1 */

@@ -7,7 +7,7 @@ ie:
 id:
     - scss
     - .svn
-    - .sass-cache
+    - .scss-cache
 cleanPublic: 'true'
 patternStates:
     - inprogress

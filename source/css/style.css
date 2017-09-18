@@ -1,3 +1,83 @@
-/*
- * YOUR STYLES HERE
- */
+/* 1 */
+/* line 1, ../scss/base/_main.scss */
+html {
+  /* Adjust font size */
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* Font variant */
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  /* Smoothing */
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 15, ../scss/base/_main.scss */
+body {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #000000;
+}
+
+/* line 24, ../scss/base/_main.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 1, ../_patterns/00-atoms/01-text/_headings.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #004ea8;
+  font-family: "Georgia", sans-serif;
+}
+
+/* line 17, ../_patterns/00-atoms/buttons/_buttons.scss */
+.button {
+  background-color: #004ea8;
+  color: #FFFFFF;
+  border-radius: 0;
+  font-weight: 700;
+  padding: 24px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+/* line 19, ../_patterns/00-atoms/buttons/_buttons.scss */
+.button--alt {
+  background-color: #004ea8;
+  color: #FFFFFF;
+  border-radius: 0;
+  font-weight: 700;
+  padding: 24px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  background: #221660;
+  color: #FFFFFF;
+}
+
+/* line 24, ../_patterns/00-atoms/buttons/_buttons.scss */
+a.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+/* line 32, ../_patterns/00-atoms/buttons/_buttons.scss */
+input[type="submit"],
+.form-submit {
+  background-color: #004ea8;
+  color: #FFFFFF;
+  border-radius: 0;
+  font-weight: 700;
+  padding: 24px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+}

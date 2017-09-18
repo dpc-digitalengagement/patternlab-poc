@@ -1,0 +1,15 @@
+{
+  "name": "patternlab-test-1",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "grunt",
+    "watch": "grunt watch",
+    "setup": "bundle install"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-shell": "^2.1.0"
+  }
+}
