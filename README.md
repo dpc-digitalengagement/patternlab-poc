@@ -6,6 +6,10 @@ Based on [Pattern Lab Standard Edition for Twig](https://github.com/pattern-lab/
 
 For Drupal 8 integration, can be done by including this into a base theme which I will create another repo for POC.
 
+# Structure
+When editing our UI lib source code you must put your files and edit them in the `./source/` directory. 
+Check the docs in Pattern Lab official docs: [Editing Pattern Lab Source Files](http://patternlab.io/docs/editing-source-files.html)
+
 # Prerequisites
 - Node
 - Ruby, Bundler
