@@ -1,23 +1,9 @@
-html {
-  /* Adjust font size */
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-  /* Font variant */
-  font-variant-ligatures: none;
-  -webkit-font-variant-ligatures: none;
-  /* Smoothing */
-  text-rendering: optimizeLegibility;
-  -moz-osx-font-smoothing: grayscale;
-  font-smoothing: antialiased;
-  -webkit-font-smoothing: antialiased;
-}
-
 body {
   font-family: $base-font-family;
   font-weight: $base-font-weight;
   font-size: $base-font-size;
   line-height: $base-line-height;
-  color: $base-font-color;
+  color: $base-text-color;
 }
 
 a {

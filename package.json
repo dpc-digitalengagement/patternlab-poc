@@ -2,14 +2,19 @@
   "name": "patternlab-test-1",
   "version": "0.1.0",
   "scripts": {
-    "start": "grunt",
-    "watch": "grunt watch",
-    "setup": "bundle install"
+    "start": "grunt server",
+    "watch": "grunt",
+    "build": "grunt generate"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-contrib-compass": "^1.1.1",
-    "grunt-shell": "^2.1.0"
+    "grunt-sass": "^2.0.0",
+    "grunt-sass-globbing": "^1.5.1",
+    "grunt-shell": "^2.1.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "normalize-scss": "^7.0.0"
   }
 }
