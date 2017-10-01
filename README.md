@@ -37,7 +37,7 @@ yarn start
 It should start a server, go to http://localhost:8080/ check the Pattern library.
 
 # Watching changes
-Run `npm run watch` or `yarn start`, it will watch scss and twig file changes and do the compile and generate work.
+Run `npm run watch` or `yarn watch`, it will watch scss and twig file changes and do the compile and generate work.
 
 # Todo
 - Add react js component in it
