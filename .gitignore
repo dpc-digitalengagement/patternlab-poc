@@ -1,8 +1,8 @@
 .DS_Store
-export/*
-public/*
+pattern-lab/export/*
+pattern-lab/public/*
 source/styleguide/*
-vendor/*
+pattern-lab/vendor/*
 .idea/*
 .sass-cache/*
 node_modules/
