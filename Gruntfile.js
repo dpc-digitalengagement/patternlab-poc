@@ -12,6 +12,9 @@ module.exports = function (grunt) {
       },
       generate: {
         command: 'php pattern-lab/core/console --generate'
+      },
+      setup: {
+        command: 'cd pattern-lab && composer install --no-interaction'
       }
     },
 
@@ -68,5 +71,6 @@ module.exports = function (grunt) {
 
   grunt.registerTask('generate', ['shell:generate']);
   grunt.registerTask('server', ['shell:server']);
+  grunt.registerTask('setup', ['shell:setup']);
   grunt.registerTask('default', ['sass_globbing', 'sass', 'watch']);
 };

@@ -15,22 +15,31 @@ Check the docs in Pattern Lab official docs: [Editing Pattern Lab Source Files](
 
 # Prerequisites
 - Node
+- Composer
 - Yarn (optional)
 
 # Installing
 
 Clone this project to local.
-
-# View demo
 ```
 npm install
+npm run setup
 npm run build
-npm start
 ```
 or
 ```
 yarn install
+yarn setup
 yarn build
+```
+
+# View demo
+```
+npm start
+```
+or
+```
+
 yarn start
 ```
 

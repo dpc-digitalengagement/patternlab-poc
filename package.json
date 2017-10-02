@@ -4,7 +4,8 @@
   "scripts": {
     "start": "grunt server",
     "watch": "grunt",
-    "build": "grunt generate"
+    "build": "grunt generate",
+    "setup": "grunt setup"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
