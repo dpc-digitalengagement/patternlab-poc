@@ -8,10 +8,10 @@ module.exports = function (grunt) {
     // Pattern lab
     shell: {
       server: {
-        command: 'php core/console --server'
+        command: 'php pattern-lab/core/console --server'
       },
       generate: {
-        command: 'php core/console --generate'
+        command: 'php pattern-lab/core/console --generate'
       }
     },
 
@@ -19,7 +19,7 @@ module.exports = function (grunt) {
       options: {
         sourceMap: true,
         outputStyle: 'compressed',
-        includePaths: ['node_modules/normalize-scss/sass']
+        includePaths: ['pattern-lab/node_modules/normalize-scss/sass']
       },
       dist: {
         files: {
@@ -54,9 +54,10 @@ module.exports = function (grunt) {
         ],
         tasks: ['generate']
       },
-      twig: {
+      html: {
         files: [
-          'source/_patterns/**/*.twig'
+          'source/_patterns/**/*.twig',
+          'source/**/*.json'
         ],
         tasks: ['generate']
       },
